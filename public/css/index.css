@@ -1,0 +1,207 @@
+/* Урок 1. Завдання 1. Зробіть, щоб HTML мав білий фон, використовуйте Root селектор */
+
+:root {
+    background: white;
+}
+
+/* Завдання 2. Зробіть, щоб всі елемнти на сторінці мали текст чорного кольору */
+
+* {
+    color: black;
+}
+
+/* 3 */
+
+h1 {
+    background: blue;
+}
+
+/* 4 */
+
+.green {
+    color: green;
+}
+
+/* 5 */
+
+#blue {
+    color: blue;
+}
+
+/* 6 */
+
+section .box p {
+    background: red;
+}
+
+section .box div {
+    background: green;
+}
+
+/* 7 */
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+/* 8 */
+
+ul > li {
+    background: red;
+}
+
+/* 9 */
+
+.header-button + span {
+    background: red;
+}
+
+/* 10 */
+
+.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+/* 11 */
+
+.salo,
+#bread {
+    background: yellow;
+}
+
+/* Урок 2. 1 */
+
+.first-task li:first-child {
+    color: white;
+}
+
+/* 2 */
+
+.second-task ul:first-child li:first-child {
+    color: yellow;
+}
+
+/* 3 */
+
+.third-task ul:last-child li:first-child {
+    color: yellow;
+}
+
+/* 4 */
+
+.four-task li:last-child {
+    color: yellow;
+}
+
+/* 5 */
+
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+/* 6 */
+
+.only-child-task div:only-child {
+    color: red;
+}
+
+/* 7 */
+
+.seven-task p:first-of-type {
+    background: red;
+}
+
+/* 8 */
+
+.eight-task p:last-of-type {
+    background: red;
+}
+
+/* 9 */
+
+.nine-task p:only-of-type {
+    background: yellow;
+}
+
+/* Урок 3. 1 */
+
+.lesson-three-task-one a[href] {
+    color: white;
+}
+
+/* 2 */
+
+.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+/* 3 */
+
+.lesson-three-task-three li[value="3"] {
+    background: red;
+}
+
+/* 4 */
+
+.lesson-three-task-four button[class~="primary"] {
+    background: blue;
+}
+
+/* 5 */
+
+.lesson-three-task-five button[class|="secondary"] {
+    background: red;
+}
+
+/* 6 */
+
+.lesson-three-task-six li[class^="b"] {
+    color: green;
+    background: white;
+}
+
+/* 7 */
+
+.lesson-three-task-seven li[class*="on"] {
+    color: green;
+    background: white;
+}
+
+/* 8 */
+
+.lesson-three-task-eight span[class$="s"] {
+    background: white;
+    color: blue;
+}
+
+/* 9 */
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+/* 10 */
+
+.lesson-three-task-ten::first-line {
+    background: yellow;
+}
+
+/* 11 */
+
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+/* 12 */
+
+.lesson-three-task-twelve li::before {
+    content: ">";
+}
+
+/* 13 */
+
+.lesson-three-task-thirteen li::after {
+    content: ">";
+}
